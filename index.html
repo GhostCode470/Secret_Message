@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Secret Message</title>
+  </head>
+  <body>
+    <div id="form">
+      <h1>Enter a secret message</h1>
+      <form id="messageForm">
+        <label for="message">Message:</label><br>
+        <input type="text" id="message" name="message" value="" placeholder="My secret message ..."><br>
+        <input type="submit" value="Create">
+      </form>
+    </div>
+    <div id="link" style="display:none;">
+      <h1>Share this link</h1>
+      <input type="text" id="url" value="" readonly>
+      <button id="copyBtn">Copy</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
